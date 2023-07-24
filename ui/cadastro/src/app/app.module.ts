@@ -8,12 +8,14 @@ import { ProdutosListComponent } from './produtos/produtos-list/produtos-list.co
 import { ProdutoService } from './shared/service/produto.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProdutosFormComponent } from './produtos/produtos-form/produtos-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProdutoComponent,
-    ProdutosListComponent
+    ProdutosListComponent,
+    ProdutosFormComponent
   ],
   imports: [
     BrowserModule,
